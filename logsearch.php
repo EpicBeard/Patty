@@ -2,9 +2,9 @@
 
 include('../vendor/troydavisson/phrets/src/Configuration.php');
 
-$rets_username = "thomasgordon";
-$rets_password = "dRa#2fUr";
-$rets_user_agent_password = "dRa#2fUr";
+$rets_username = "username";
+$rets_password = "userpass";
+$rets_user_agent_password = "userpass";
 $rets_login_url = "http://cat.rets.paragonrels.com/rets/fnisrets.aspx/CAT/login?rets-version=rets/1.5";
 
 $config = new \PHRETS\Configuration;
