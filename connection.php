@@ -12,8 +12,8 @@ $config = new \PHRETS\Configuration;
 //$config->setLoginUrl('http://www.idxseodemo.com/workarea/run_now.php');
 
 $config->setLoginUrl('http://cat.rets.paragonrels.com/rets/fnisrets.aspx/CAT/login?rets-version=rets/1.5')
-        ->setUsername('thomasgordon')
-        ->setPassword('dRa#2fUr')
+        ->setUsername('username')
+        ->setPassword('userpass')
         ->setRetsVersion('1.7.2');
 
 $rets = new \PHRETS\Session($config);
